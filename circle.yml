@@ -5,7 +5,7 @@ machine:
 dependencies:
   pre:
     - gem install fastlane --no-ri --no-rdoc --no-document
-    - brew install carthage
+#    - brew install carthage
     - cd XCFit-Example && carthage bootstrap --platform iOS
 
   cache_directories:
